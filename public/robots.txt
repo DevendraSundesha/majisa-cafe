@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://majisacafe.com/sitemap.xml
+Sitemap: https://majisacafebalotra.com/sitemap.xml

@@ -5450,7 +5450,7 @@ export default function App() {
   }
 
   const sendOrderEmailNotification = (order) => {
-    const emailTarget = order.email || 'customer@majisacafe.com'
+    const emailTarget = order.email || 'customer@majisacafebalotra.com'
     console.log('Sending Order Notification Email to:', emailTarget, order)
     const modeText = order.paymentMode === 'counter' ? 'काउंटर पर भुगतान' : 'ऑनलाइन यूपीआई'
     setToast(`📧 ऑर्डर #${order.id} कन्फर्म! रसीद व सूचना ईमेल (${emailTarget}) पर भेज दी गई है सा।`)
